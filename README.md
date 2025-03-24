@@ -38,9 +38,9 @@ Now, open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
 ## **Pulling from Docker Hub**  
 Instead of manually building the image, you can pull the prebuilt version:  
 ```bash
-docker pull chhavipancholi/chhavipancholi-assignment2:latest  
-docker run -p 8000:8000 chhavipancholi/chhavipancholi-assignment2  
-```  
+docker pull agarwalcp/studentproject:latest  
+docker run -p 8000:8000 agarwalcp/studentproject  
+
 Your project will now be accessible at [http://127.0.0.1:8000/](http://127.0.0.1:8000/).  
 
 ## **Jenkins CI/CD Pipeline**  
